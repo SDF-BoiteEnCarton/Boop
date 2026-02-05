@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "cube",
+      "position": {"x": 0, "y": -24, "z": -3},
+      "orientation": {"x": 0, "y": 0.70711, "z": -0.70711, "w": 0},
+      "shape": {
+        "type": "box",
+        "offset": {"x": 0, "y": -3, "z": -9},
+        "stretch": {"x": 0.25, "y": 0.25, "z": 0.25},
+        "settings": {
+          "isPiece": false,
+          "size": {"x": 128, "y": 128, "z": 128},
+          "isStaticBox": true
+        },
+        "textureLayout": {
+          "back": {
+            "offset": {"x": 0, "y": 0},
+            "mirror": {"x": false, "y": false},
+            "angle": 0
+          }
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": true,
+        "shadingMode": "flat"
+      }
+    }
+  ],
+  "format": "prop",
+  "lod": "auto"
+}

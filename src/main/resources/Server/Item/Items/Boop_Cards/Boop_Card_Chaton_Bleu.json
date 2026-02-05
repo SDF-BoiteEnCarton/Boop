@@ -1,0 +1,57 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Boop_Card_ChatonBleu.name"
+  },
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Model_Textures/BoopCardChatonBleuTexture.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Roof",
+    "HitboxType": "Block_Flat",
+    "VariantRotation": "NESW",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks",
+        "ItemId": "Boop_Card_Chaton_Bleu"
+      }
+    },
+    "BlockParticleSetId": "Grass",
+    "Supporting": {},
+    "BlockSoundSetId": "Boop_Card_Chaton_Sound",
+    "ParticleColor": "#c6c6c6",
+    "CustomModel": "Resources/Models/Boop_Card_Model.blockymodel",
+    "Opacity": "Transparent"
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      90,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      0
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Cloth"
+    ],
+    "SubType": [
+      "Roof"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Cloth",
+  "Icon": "Icons/ItemsGenerated/BoopCardChatonBleuIcon.png"
+}
