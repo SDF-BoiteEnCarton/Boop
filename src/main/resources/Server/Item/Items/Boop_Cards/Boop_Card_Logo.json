@@ -52,5 +52,20 @@
     ]
   },
   "ItemSoundSetId": "ISS_Items_Cloth",
-  "Icon": "Icons/ItemsGenerated/BoopCardLogoIcon.png"
+  "Icon": "Icons/ItemsGenerated/BoopCardLogoIcon.png",
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "GamesTable",
+        "Categories": [
+          "Boop_Bench"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen"
+      }
+    ]
+  }
 }

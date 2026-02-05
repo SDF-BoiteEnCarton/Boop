@@ -2,9 +2,6 @@
   "TranslationProperties": {
     "Name": "server.items.Boop_Card_ChatBleu.name"
   },
-  "Categories": [
-    "Blocks.Rocks"
-  ],
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
@@ -53,5 +50,23 @@
     ]
   },
   "ItemSoundSetId": "ISS_Items_Cloth",
-  "Icon": "Icons/ItemsGenerated/BoopCardChatBleuIcon.png"
+  "Icon": "Icons/ItemsGenerated/BoopCardChatBleuIcon.png",
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "GamesTable",
+        "Categories": [
+          "Boop_Bench"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen"
+      }
+    ]
+  },
+  "Categories": [
+    "Blocks.Rocks"
+  ]
 }
